@@ -19,7 +19,9 @@ The following binary operators are supported:
 1. Comparison: >, <, >=, <=, ==, !=
 
 You can print a bigint in base 10 using:
+	
 	std::cout<<x;
+
 The end line is included.
 
 The data stucture is very simple, it contatins a `std::vector<uint8_t>` to store

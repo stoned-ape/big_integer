@@ -42,6 +42,9 @@ int main(){
     timer timer;
     cout<<"bigint\n";
     
+    bigint x=(string)"377327386272882786489";
+    cout<<x;
+    
     for(long i=-300;i<=300;i+=1){
         bigint a=i;
         if(a.tostring()!=to_string(i))

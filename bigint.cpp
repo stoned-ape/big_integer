@@ -319,6 +319,13 @@ bigint bigint::operator<<=(long x){
     return *this;
 }
 
+ostream &operator<<(ostream &os,bigint a){
+    os<<a.tostring();
+    os<<endl;
+    return os;
+}
+
+
 
 #define MODIFYING_OP(opeq,op) \
     bigint bigint::operator opeq (bigint a){ \

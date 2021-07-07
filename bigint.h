@@ -86,4 +86,6 @@ bigint operator>>(bigint a,long x);
 bigint operator<<(bigint a,long x);
 bigint abs(bigint a);
 
+ostream &operator<<(ostream &os,bigint a);
+
 #endif

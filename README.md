@@ -5,7 +5,7 @@ You can assign a bigint to a normal int:
 
 	bigint x=37;
 
-If you integer is to large, you can use the string constuctor:
+If your integer is to large, you can use the string constuctor:
 
 	bigint x=(string)"37873892982891988917116";
 

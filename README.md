@@ -1,4 +1,4 @@
-This library allows you to do operations on arbitrarally large integers, similar to 
+This library allows you to do operations on arbitrarilly large integers, similar to 
 python ints.
 
 You can assign a bigint to a normal int:
@@ -14,9 +14,9 @@ For large negative integers:
 	bigint x="-36736637238289191918272";
 
 The following operators are supported:
-1. Arithmetic: +,-,\*,/,%
-1. Mutating: +=,-=,\*=,/=,%=
-1. Comparison: >,<,>=,<=,==,!=
+1. Arithmetic: +, -, \*, /, %
+1. Mutating: +=, -=, \*=, /=, %=
+1. Comparison: >, <, >=, <=, ==, !=
 
 The data stucture is very simple, it contatins a `std::vector<uint8_t>` to store
 the number, and a `bool` which is true for positive numbers and false for negatives.
@@ -24,9 +24,5 @@ the number, and a `bool` which is true for positive numbers and false for negati
 The complexity comes form the implementation of addition, subtraction, 
 multiplication, and divison in bigint.cpp. 
 
-Use 
-	make 
-to build, or 
-	make run 
-to build and run tests.
+Use `make` to build, or `make run` to build and run tests.
 
